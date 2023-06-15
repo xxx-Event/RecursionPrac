@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31841A41-A03D-4A63-8E67-C31E3D7F9503}</ProjectGuid>
+    <ProjectGuid>{0B4277A1-FBC4-4B1B-84F8-F1733EA04AF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RecursionPrac</RootNamespace>
-    <AssemblyName>RecursionPrac</AssemblyName>
+    <RootNamespace>RecursionPrac32</RootNamespace>
+    <AssemblyName>RecursionPrac32</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fibonacci.cs" />
     <Compile Include="FibonacciAdv.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="RecursionPrac32.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
